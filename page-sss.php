@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 <style>
     /* Super Stylish Custom FAQ CSS */
     :root {
@@ -148,40 +148,40 @@
 <div class="super-faq-section">
     <div class="super-faq-container">
         <div class="super-faq-header">
-            <h1>S�k Sorulan Sorular</h1>
-            <p>Akl�n�za tak�lan t�m sorular�n detayl� yan�tlar�n� sizin i�in bir araya getirdik. Projeniz i�in en do�ru karar� vermenize yard�mc� olmak istiyoruz.</p>
+            <h1>Sık Sorulan Sorular</h1>
+            <p>Aklınıza takılan tüm soruların detaylı yanıtlarını sizin için bir araya getirdik. Projeniz için en doğru kararı vermenize yardımcı olmak istiyoruz.</p>
         </div>
 
-        <!-- YAZILIM VE WEB GEL��T�RME -->
-        <h2 class="super-faq-category-title"><i class="fas fa-laptop-code"></i> Web & Yaz�l�m Geli�tirme</h2>
+        <!-- YAZILIM VE WEB GELİŞTİRME -->
+        <h2 class="super-faq-category-title"><i class="fas fa-laptop-code"></i> Web & Yazılım Geliştirme</h2>
         <div class="super-faq-accordion">
             <div class="super-faq-item">
                 <div class="super-faq-question">
-                    �zel yaz�l�m ile haz�r paket (WordPress vb.) aras�ndaki fark nedir?
+                    Özel yazılım ile hazır paket (WordPress vb.) arasındaki fark nedir?
                     <div class="super-faq-icon"><i class="fas fa-chevron-down"></i></div>
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p><strong>Haz�r Paketler (WordPress, Shopify vb.):</strong> Daha h�zl� kurulur, maliyeti daha uygundur ve standart ihtiya�lar� (blog, kurumsal tan�t�m, temel e-ticaret) kusursuz kar��lar. Binlerce eklenti ile desteklenebilir.</p>
-                        <p><strong>�zel Yaz�l�m (Custom Development):</strong> Tamamen sizin i� modelinize, i� ak��lar�n�za ve �zel s�re�lerinize g�re s�f�rdan kodlan�r. S�n�r yoktur, performans ve g�venlik tamamen size �zel optimize edilir ancak maliyet ve s�re daha y�ksektir.</p>
+                        <p><strong>Hazır Paketler (WordPress, Shopify vb.):</strong> Daha hızlı kurulur, maliyeti daha uygundur ve standart ihtiyaçları (blog, kurumsal tanıtım, temel e-ticaret) kusursuz karşılar. Binlerce eklenti ile desteklenebilir.</p>
+                        <p><strong>Özel Yazılım (Custom Development):</strong> Tamamen sizin iş modelinize, iş akışlarınıza ve özel süreçlerinize göre sıfırdan kodlanır. Sınır yoktur, performans ve güvenlik tamamen size özel optimize edilir ancak maliyet ve süre daha yüksektir.</p>
                     </div>
                 </div>
             </div>
             
             <div class="super-faq-item">
                 <div class="super-faq-question">
-                    Web sitemi Googleda (SEO) �st s�ralara ��kar�yor musunuz?
+                    Web sitemi Google'da (SEO) üst sıralara çıkarıyor musunuz?
                     <div class="super-faq-icon"><i class="fas fa-chevron-down"></i></div>
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>Evet, t�m projelerimizi <strong>Temel SEO (On-Page SEO)</strong> standartlar�na uygun olarak kodluyoruz. Bu kapsamda:</p>
+                        <p>Evet, tüm projelerimizi <strong>Temel SEO (On-Page SEO)</strong> standartlarına uygun olarak kodluyoruz. Bu kapsamda:</p>
                         <ul>
-                            <li>Do�ru HTML etiketleme (H1, H2, Title, Meta Description)</li>
-                            <li>G�rsel optimizasyonu (WebP format� ve lazy loading)</li>
-                            <li>Mobil uyumluluk (Responsive) ve PageSpeed performans ayarlar� standart olarak sunulur.</li>
+                            <li>Doğru HTML etiketleme (H1, H2, Title, Meta Description)</li>
+                            <li>Görsel optimizasyonu (WebP formatı ve lazy loading)</li>
+                            <li>Mobil uyumluluk (Responsive) ve PageSpeed performans ayarları standart olarak sunulur.</li>
                         </ul>
-                        <p>Geli�mi� ve s�rekli SEO y�netimi (��erik �retimi, backlink vb.) i�in ayr�nt�l� Dijital Pazarlama paketlerimiz bulunmaktad�r.</p>
+                        <p>Gelişmiş ve sürekli SEO yönetimi (İçerik üretimi, backlink vb.) için ayrıntılı Dijital Pazarlama paketlerimiz bulunmaktadır.</p>
                     </div>
                 </div>
             </div>
@@ -193,50 +193,50 @@
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>Kesinlikle. G�n�m�zde internet trafi�inin %80inden fazlas� mobil cihazlardan gelmektedir. Bu nedenle geli�tirdi�imiz t�m web siteleri ve web uygulamalar� <strong>Mobile-First (�nce Mobil)</strong> yakla��m�yla tasarlan�r.</p>
-                        <p>Telefon, tablet ve masa�st� bilgisayarlar�n t�m ekran ��z�n�rl�klerinde kusursuz bir kullan�c� deneyimi (UX) sunmay� garanti ediyoruz.</p>
+                        <p>Kesinlikle. Günümüzde internet trafiğinin %80'inden fazlası mobil cihazlardan gelmektedir. Bu nedenle geliştirdiğimiz tüm web siteleri ve web uygulamaları <strong>Mobile-First (Önce Mobil)</strong> yaklaşımıyla tasarlanır.</p>
+                        <p>Telefon, tablet ve masaüstü bilgisayarların tüm ekran çözünürlüklerinde kusursuz bir kullanıcı deneyimi (UX) sunmayı garanti ediyoruz.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- S�RE� VE PROJE Y�NET�M� -->
-        <h2 class="super-faq-category-title"><i class="fas fa-project-diagram"></i> S�re� & Proje Y�netimi</h2>
+        <!-- SÜREÇ VE PROJE YÖNETİMİ -->
+        <h2 class="super-faq-category-title"><i class="fas fa-project-diagram"></i> Süreç & Proje Yönetimi</h2>
         <div class="super-faq-accordion">
             <div class="super-faq-item">
                 <div class="super-faq-question">
-                    Bir web sitesi veya yaz�l�m projesi ne kadar s�rede teslim ediliyor?
+                    Bir web sitesi veya yazılım projesi ne kadar sürede teslim ediliyor?
                     <div class="super-faq-icon"><i class="fas fa-chevron-down"></i></div>
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>Teslimat s�resi tamamen projenin kapsam�na ba�l�d�r:</p>
+                        <p>Teslimat süresi tamamen projenin kapsamına bağlıdır:</p>
                         <ul>
                             <li><strong>Kurumsal Web Siteleri:</strong> Ortalama 1 ile 3 hafta.</li>
-                            <li><strong>E-Ticaret Siteleri:</strong> �r�n yelpazesi ve entegrasyonlara ba�l� olarak 3 ile 5 hafta.</li>
-                            <li><strong>�zel Yaz�l�m Projeleri:</strong> Kapsaml� analiz sonras� belirlenir, genellikle 2 ay ile 6 ay aras�nda de�i�ebilir.</li>
+                            <li><strong>E-Ticaret Siteleri:</strong> Ürün yelpazesi ve entegrasyonlara bağlı olarak 3 ile 5 hafta.</li>
+                            <li><strong>Özel Yazılım Projeleri:</strong> Kapsamlı analiz sonrası belirlenir, genellikle 2 ay ile 6 ay arasında değişebilir.</li>
                         </ul>
-                        <p>S�zle�me a�amas�nda size kesin bir teslim tarihi (Deadline) sunuyor ve projelendirme takvimine sad�k kal�yoruz.</p>
+                        <p>Sözleşme aşamasında size kesin bir teslim tarihi (Deadline) sunuyor ve projelendirme takvimine sadık kalıyoruz.</p>
                     </div>
                 </div>
             </div>
             
             <div class="super-faq-item">
                 <div class="super-faq-question">
-                    Proje yap�m a�amas�nda gidi�at� g�rebilecek miyim?
+                    Proje yapım aşamasında gidişatı görebilecek miyim?
                     <div class="super-faq-icon"><i class="fas fa-chevron-down"></i></div>
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>Evet, s�re� boyunca tamamen �effaf ilerliyoruz. Projeniz i�in size �zel bir <strong>Test (Staging) Ba�lant�s�</strong> olu�turuyoruz.</p>
-                        <p>Bu ba�lant� �zerinden tasar�m ve kodlama a�amalar�n� anl�k olarak takip edebilir, revize (d�zeltme) taleplerinizi projeniz hen�z yay�na girmeden bize iletebilirsiniz.</p>
+                        <p>Evet, süreç boyunca tamamen şeffaf ilerliyoruz. Projeniz için size özel bir <strong>Test (Staging) Bağlantısı</strong> oluşturuyoruz.</p>
+                        <p>Bu bağlantı üzerinden tasarım ve kodlama aşamalarını anlık olarak takip edebilir, revize (düzeltme) taleplerinizi projeniz henüz yayına girmeden bize iletebilirsiniz.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- DESTEK, G�VENL�K VE ALTYAPI -->
-        <h2 class="super-faq-category-title"><i class="fas fa-shield-alt"></i> Destek, G�venlik & Altyap�</h2>
+        <!-- DESTEK, GÜVENLİK VE ALTYAPI -->
+        <h2 class="super-faq-category-title"><i class="fas fa-shield-alt"></i> Destek, Güvenlik & Altyapı</h2>
         <div class="super-faq-accordion">
             <div class="super-faq-item">
                 <div class="super-faq-question">
@@ -245,38 +245,38 @@
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>Evet, bizim i�in proje teslimi bir son de�il, uzun soluklu bir i� ortakl���n�n ba�lang�c�d�r.</p>
-                        <p>T�m projelerimizde standart olarak <strong>�cretsiz teknik destek ve hata giderme s�resi (Garanti)</strong> sunuyoruz. Garanti s�resi bittikten sonra ise sunucu bak�m�, yedekleme, siber g�venlik ve i�erik g�ncellemelerini kapsayan <strong>Ayl�k/Y�ll�k Bak�m Anla�malar� (SLA)</strong> ile yan�n�zda olmaya devam ediyoruz.</p>
+                        <p>Evet, bizim için proje teslimi bir son değil, uzun soluklu bir iş ortaklığının başlangıcıdır.</p>
+                        <p>Tüm projelerimizde standart olarak <strong>ücretsiz teknik destek ve hata giderme süresi (Garanti)</strong> sunuyoruz. Garanti süresi bittikten sonra ise sunucu bakımı, yedekleme, siber güvenlik ve içerik güncellemelerini kapsayan <strong>Aylık/Yıllık Bakım Anlaşmaları (SLA)</strong> ile yanınızda olmaya devam ediyoruz.</p>
                     </div>
                 </div>
             </div>
 
             <div class="super-faq-item">
                 <div class="super-faq-question">
-                    Domain (Alan ad�) ve Hosting hizmetlerini siz mi sa�l�yorsunuz?
+                    Domain (Alan adı) ve Hosting hizmetlerini siz mi sağlıyorsunuz?
                     <div class="super-faq-icon"><i class="fas fa-chevron-down"></i></div>
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>�sterseniz t�m altyap�y� (Domain, y�ksek performansl� NVMe SSD Hosting, SSL Sertifikas�, Kurumsal E-posta) <strong>anahtar teslim</strong> olarak biz sa�l�yoruz.</p>
-                        <p>E�er hali haz�rda kendi sunucunuz veya hosting hizmetiniz varsa, sistem gereksinimlerini kar��lamas� durumunda kurulumu do�rudan sizin sunucular�n�za da ger�ekle�tirebiliriz.</p>
+                        <p>İsterseniz tüm altyapıyı (Domain, yüksek performanslı NVMe SSD Hosting, SSL Sertifikası, Kurumsal E-posta) <strong>anahtar teslim</strong> olarak biz sağlıyoruz.</p>
+                        <p>Eğer hali hazırda kendi sunucunuz veya hosting hizmetiniz varsa, sistem gereksinimlerini karşılaması durumunda kurulumu doğrudan sizin sunucularınıza da gerçekleştirebiliriz.</p>
                     </div>
                 </div>
             </div>
             
             <div class="super-faq-item">
                 <div class="super-faq-question">
-                    Siber g�venlik ve hacklenmeye kar�� �nlemleriniz nelerdir?
+                    Siber güvenlik ve hacklenmeye karşı önlemleriniz nelerdir?
                     <div class="super-faq-icon"><i class="fas fa-chevron-down"></i></div>
                 </div>
                 <div class="super-faq-answer">
                     <div class="super-faq-answer-inner">
-                        <p>G�venlik birinci �nceli�imizdir. Sitelerinizde �u standart g�venlik protokollerini uyguluyoruz:</p>
+                        <p>Güvenlik birinci önceliğimizdir. Sitelerinizde şu standart güvenlik protokollerini uyguluyoruz:</p>
                         <ul>
-                            <li>T�m veri ak���n� �ifreleyen <strong>�cretsiz 256-bit SSL Sertifikas�</strong>.</li>
-                            <li>Zararl� yaz�l�m taramalar� ve SQL Injection korumalar� (G�venlik Duvar� - WAF).</li>
-                            <li>�zinsiz giri� denemelerine kar�� Brute-Force sald�r� korumas� ve gizli admin paneli yollar�.</li>
-                            <li>Felaket kurtarma senaryolar� i�in otomatik <strong>G�nl�k veya Haftal�k Yedekleme (Backup)</strong>.</li>
+                            <li>Tüm veri akışını şifreleyen <strong>Ücretsiz 256-bit SSL Sertifikası</strong>.</li>
+                            <li>Zararlı yazılım taramaları ve SQL Injection korumaları (Güvenlik Duvarı - WAF).</li>
+                            <li>İzinsiz giriş denemelerine karşı Brute-Force saldırı koruması ve gizli admin paneli yolları.</li>
+                            <li>Felaket kurtarma senaryoları için otomatik <strong>Günlük veya Haftalık Yedekleme (Backup)</strong>.</li>
                         </ul>
                     </div>
                 </div>
