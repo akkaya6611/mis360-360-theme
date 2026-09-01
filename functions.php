@@ -51,18 +51,17 @@ function mis360_360_scripts() {
 }
 add_action( "wp_enqueue_scripts", "mis360_360_scripts" );
 
-
 /**
- * Tema aktif edildi�inde gerekli sayfalar� otomatik olu�tur.
+ * Tema aktif edildiğinde gerekli sayfaları otomatik oluştur.
  */
 function mis360_360_create_default_pages() {
     $pages = array(
-        "Hakk�m�zda" => "hakkimizda",
+        "Hakkımızda" => "hakkimizda",
         "Banka Bilgileri" => "banka",
-        "S�k Sorulan Sorular" => "sss",
+        "Sık Sorulan Sorular" => "sss",
         "Hizmetlerimiz" => "hizmetlerimiz",
         "Projeler" => "projeler",
-        "�leti�im" => "iletisim",
+        "İletişim" => "iletisim",
         "Teklif" => "teklif"
     );
 
@@ -88,10 +87,8 @@ add_action( "init", function() {
     }
 } );
 
-
-
 /**
- * GitHub �zerinden otomatik tema g�ncellemelerini kontrol et
+ * GitHub üzerinden otomatik tema güncellemelerini kontrol et
  */
 require_once( get_template_directory() . "/plugin-update-checker/plugin-update-checker.php" );
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
@@ -102,5 +99,5 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 	"mis360-360"
 );
 
-// Sadece main (ana) dal�ndaki g�ncellemeleri �ek
+// Sadece main (ana) dalındaki güncellemeleri çek
 $myUpdateChecker->setBranch("main");
