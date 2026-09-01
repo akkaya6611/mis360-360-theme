@@ -40,6 +40,9 @@ function mis360_360_scripts() {
     if ( is_page("projeler") ) {
         wp_enqueue_style( "mis360-360-projeler-css", get_template_directory_uri() . "/assets/css/projeler.css", array(), MIS360_360_VERSION );
     }
+    if ( is_page("iletisim") ) {
+        wp_enqueue_style( "mis360-360-iletisim-css", get_template_directory_uri() . "/assets/css/iletisim.css", array(), MIS360_360_VERSION );
+    }
     if ( is_page("sss") || is_page("sik-sorulan-sorular") ) {
         wp_enqueue_style( "mis360-360-sss-css", get_template_directory_uri() . "/assets/css/sss.css", array(), MIS360_360_VERSION );
     }
