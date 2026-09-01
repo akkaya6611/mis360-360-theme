@@ -101,3 +101,27 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 
 // Sadece main (ana) dalındaki güncellemeleri çek
 $myUpdateChecker->setBranch("main");
+
+add_action( 'init', function() {
+    if ( ! get_option( 'mis360_360_db_pages_fixed_v1' ) ) {
+        $fixes = array(
+            'hakkimizda' => 'Hakkımızda',
+            'banka' => 'Banka Bilgileri',
+            'sss' => 'Sık Sorulan Sorular',
+            'hizmetlerimiz' => 'Hizmetlerimiz',
+            'projeler' => 'Projeler',
+            'iletisim' => 'İletişim',
+            'teklif' => 'Teklif'
+        );
+        foreach ( $fixes as $slug => $correct_title ) {
+            $page = get_page_by_path( $slug );
+            if ( isset( $page->ID ) && $page->post_title !== $correct_title ) {
+                wp_update_post( array(
+                    'ID' => $page->ID,
+                    'post_title' => $correct_title
+                ) );
+            }
+        }
+        update_option( 'mis360_360_db_pages_fixed_v1', true );
+    }
+} );
