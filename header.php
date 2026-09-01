@@ -160,7 +160,7 @@
                     <span>İletişim</span>
                 </a>
                                 
-                                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="mis360-360-text-btn mis360-360-musteri-panel-btn" aria-label="Müşteri Paneli">
+                                <a href="<?php echo esc_url( home_url( '/musteri-paneli/' ) ); ?>" class="mis360-360-text-btn mis360-360-musteri-panel-btn" aria-label="Müşteri Paneli">
                     <i class="fas fa-user-circle"></i>
                     <span>Müşteri Paneli</span>
                 </a>
