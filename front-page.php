@@ -635,7 +635,7 @@
                         <div class="mis360-360-project-card">
                 <div class="mis360-360-project-header">
                     <h3 class="mis360-360-project-title">Kurumsal Web Sitesi</h3>
-                    <a href="javascript:void(0);" class="mis360-360-project-link" aria-label="Kurumsal Web Sitesi projesi detaylarını görüntüle">
+                    <a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>" class="mis360-360-project-link" aria-label="Kurumsal Web Sitesi projesi detaylarını görüntüle">
                         <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
@@ -650,14 +650,14 @@
                     </div>
                 </div>
                                 
-                <div class="mis360-360-project-image">
+                <div class="mis360-360-project-image"><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Kurumsal Web Sitesi" title="Kurumsal Web Sitesi" width="385" height="240" loading="lazy">
-                </div>
+                </a></div>
             </div>
                         <div class="mis360-360-project-card">
                 <div class="mis360-360-project-header">
                     <h3 class="mis360-360-project-title">E-Ticaret Çözümleri</h3>
-                    <a href="javascript:void(0);" class="mis360-360-project-link" aria-label="E-Ticaret Çözümleri projesi detaylarını görüntüle">
+                    <a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>" class="mis360-360-project-link" aria-label="E-Ticaret Çözümleri projesi detaylarını görüntüle">
                         <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
@@ -672,14 +672,14 @@
                     </div>
                 </div>
                                 
-                <div class="mis360-360-project-image">
+                <div class="mis360-360-project-image"><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-eticaret.jpg" alt="E-Ticaret Çözümleri" title="E-Ticaret Çözümleri" width="385" height="240" loading="lazy">
-                </div>
+                </a></div>
             </div>
                         <div class="mis360-360-project-card">
                 <div class="mis360-360-project-header">
                     <h3 class="mis360-360-project-title">Mobil Uygulama</h3>
-                    <a href="javascript:void(0);" class="mis360-360-project-link" aria-label="Mobil Uygulama projesi detaylarını görüntüle">
+                    <a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>" class="mis360-360-project-link" aria-label="Mobil Uygulama projesi detaylarını görüntüle">
                         <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
@@ -694,9 +694,9 @@
                     </div>
                 </div>
                                 
-                <div class="mis360-360-project-image">
+                <div class="mis360-360-project-image"><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-mobil.jpg" alt="Mobil Uygulama" title="Mobil Uygulama" width="385" height="240" loading="lazy">
-                </div>
+                </a></div>
             </div>
                     </div>
             </div>
