@@ -27,6 +27,26 @@ function mis360_360_scripts() {
 	wp_enqueue_style( "fontawesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css", array(), "6.5.1" );
 	wp_enqueue_style( "mis360-360-main-css", get_template_directory_uri() . "/assets/css/main.css", array(), MIS360_360_VERSION );
 	wp_enqueue_style( "mis360-360-dark-css", get_template_directory_uri() . "/assets/css/dark.css", array(), MIS360_360_VERSION );
+	
+    if ( ! is_front_page() && ! is_home() ) {
+        wp_enqueue_style( "mis360-360-page-css", get_template_directory_uri() . "/assets/css/page.css", array(), MIS360_360_VERSION );
+    }
+    if ( is_page("hakkimizda") ) {
+        wp_enqueue_style( "mis360-360-hakkimizda-css", get_template_directory_uri() . "/assets/css/hakkimizda.css", array(), MIS360_360_VERSION );
+    }
+    if ( is_page("hizmetlerimiz") ) {
+        wp_enqueue_style( "mis360-360-hizmetlerimiz-css", get_template_directory_uri() . "/assets/css/hizmetlerimiz.css", array(), MIS360_360_VERSION );
+    }
+    if ( is_page("projeler") ) {
+        wp_enqueue_style( "mis360-360-projeler-css", get_template_directory_uri() . "/assets/css/projeler.css", array(), MIS360_360_VERSION );
+    }
+    if ( is_page("sss") || is_page("sik-sorulan-sorular") ) {
+        wp_enqueue_style( "mis360-360-sss-css", get_template_directory_uri() . "/assets/css/sss.css", array(), MIS360_360_VERSION );
+    }
+    if ( is_page("banka") || is_page("banka-bilgileri") ) {
+        wp_enqueue_style( "mis360-360-banka-css", get_template_directory_uri() . "/assets/css/banka.css", array(), MIS360_360_VERSION );
+    }
+
 	wp_enqueue_script( "mis360-360-main-js", get_template_directory_uri() . "/assets/js/main.js", array(), MIS360_360_VERSION, true );
 }
 add_action( "wp_enqueue_scripts", "mis360_360_scripts" );

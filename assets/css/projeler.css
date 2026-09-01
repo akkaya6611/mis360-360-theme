@@ -1,0 +1,293 @@
+.projeler-hero-section {
+    position: relative;
+    padding: 7rem 2rem 5rem;
+    background: var(--dijinays-secondary);
+    border-top: 1px solid var(--dijinays-border);
+    overflow: hidden;
+}
+
+.projeler-hero-section .dijinays-grid-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.projeler-hero-section .dijinays-grid-bg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.9) 100%);
+    pointer-events: none;
+}
+
+.proje-breadcrumb-nav {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+
+.proje-breadcrumb-list {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.proje-breadcrumb-list li {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: var(--dijinays-gray);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.proje-breadcrumb-list li:not(:last-child)::after {
+    content: '/';
+    margin-left: 0.75rem;
+    color: var(--dijinays-border);
+}
+
+.proje-breadcrumb-list a {
+    color: var(--dijinays-gray);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.proje-breadcrumb-list a:hover {
+    color: var(--dijinays-primary);
+}
+
+.proje-breadcrumb-list li.active {
+    color: var(--dijinays-primary);
+    font-weight: 600;
+    flex-shrink: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.projeler-hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    text-align: left;
+}
+
+.projeler-hero-title {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: var(--dijinays-primary);
+    line-height: 1.2;
+    margin: 0 0 1.5rem 0;
+}
+
+.projeler-hero-description {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--dijinays-gray);
+    margin: 0 0 2rem 0;
+    max-width: 700px;
+}
+
+.projeler-hero-actions {
+    margin-top: 2rem;
+}
+
+.projeler-hero-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    background: var(--dijinays-primary);
+    color: var(--dijinays-secondary);
+    border-radius: var(--dijinays-border-radius-8);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.projeler-hero-btn:hover {
+    background: #e55a00;
+    box-shadow: 0 8px 24px rgba(255, 107, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.projeler-hero-btn i {
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.projeler-hero-btn:hover i {
+    transform: translateY(4px);
+}
+
+.dijinays-projects-section {
+    padding: 4rem 2rem;
+}
+
+.projeler-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.projeler-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-radius: var(--dijinays-border-radius-8);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: var(--dijinays-secondary);
+    border: 1px solid var(--dijinays-border);
+}
+
+.projeler-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    border-color: var(--dijinays-primary);
+}
+
+.projeler-card-image {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    background: var(--dijinays-light-gray);
+}
+
+.projeler-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.projeler-card:hover .projeler-card-image img {
+    transform: scale(1.1);
+}
+
+.projeler-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.projeler-card:hover .projeler-card-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.projeler-card-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dijinays-primary);
+    color: var(--dijinays-secondary);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.projeler-card:hover .projeler-card-icon {
+    transform: scale(1);
+}
+
+.projeler-card-content {
+    padding: 1.5rem;
+}
+
+.projeler-card-badge {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    background: var(--dijinays-light-gray);
+    color: var(--dijinays-primary);
+    border-radius: var(--dijinays-border-radius-8);
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.projeler-card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--dijinays-primary);
+    margin: 0;
+    line-height: 1.3;
+}
+
+@media (max-width: 1024px) {
+    .projeler-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .projeler-hero-section {
+        padding: 6rem 1.5rem 3rem;
+    }
+    
+    .proje-breadcrumb-list {
+        font-size: 0.75rem;
+        gap: 0.5rem;
+    }
+    
+    .projeler-hero-title {
+        font-size: 2rem;
+    }
+    
+    .projeler-hero-description {
+        font-size: 1rem;
+    }
+    
+    .dijinays-projects-section {
+        padding: 3rem 1.5rem;
+    }
+    
+    .projeler-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .projeler-card-image {
+        height: 280px;
+    }
+}
+
