@@ -114,7 +114,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 $myUpdateChecker->setBranch("main");
 
 add_action( 'init', function() {
-    if ( ! get_option( 'mis360_360_db_pages_fixed_v1' ) ) {
+    if ( ! get_option( 'mis360_360_db_pages_fixed_v2' ) ) {
         $fixes = array(
             'hakkimizda' => 'Hakkımızda',
             'banka' => 'Banka Bilgileri',
@@ -127,13 +127,23 @@ add_action( 'init', function() {
         );
         foreach ( $fixes as $slug => $correct_title ) {
             $page = get_page_by_path( $slug );
-            if ( isset( $page->ID ) && $page->post_title !== $correct_title ) {
-                wp_update_post( array(
-                    'ID' => $page->ID,
-                    'post_title' => $correct_title
+            if ( isset( $page->ID ) ) {
+                if ($page->post_title !== $correct_title) {
+                    wp_update_post( array(
+                        'ID' => $page->ID,
+                        'post_title' => $correct_title
+                    ) );
+                }
+            } else {
+                wp_insert_post( array(
+                    'post_type'    => 'page',
+                    'post_title'   => $correct_title,
+                    'post_name'    => $slug,
+                    'post_status'  => 'publish',
+                    'post_author'  => 1,
                 ) );
             }
         }
-        update_option( 'mis360_360_db_pages_fixed_v1', true );
+        update_option( 'mis360_360_db_pages_fixed_v2', true );
     }
 } );
