@@ -36,6 +36,7 @@
 </li>
 <li class="mis360-360-nav-item"><a class="mis360-360-nav-link" href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>">Hizmetlerimiz</a></li>
 <li class="mis360-360-nav-item"><a class="mis360-360-nav-link" href="<?php echo esc_url( home_url( '/projeler/' ) ); ?>">Projeler</a></li>
+<li class="mis360-360-nav-item"><a class="mis360-360-nav-link" href="<?php echo esc_url( home_url( '/referanslar/' ) ); ?>">Referanslar</a></li>
 </ul>            </nav>
 
             <div class="mis360-360-header-actions">

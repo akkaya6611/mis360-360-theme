@@ -43,6 +43,9 @@ function mis360_360_scripts() {
     if ( is_page("iletisim") ) {
         wp_enqueue_style( "mis360-360-iletisim-css", get_template_directory_uri() . "/assets/css/iletisim.css", array(), MIS360_360_VERSION );
     }
+    if ( is_page("referanslar") ) {
+        wp_enqueue_style( "mis360-360-referanslar-css", get_template_directory_uri() . "/assets/css/referanslar.css", array(), MIS360_360_VERSION );
+    }
     if ( is_page("sss") || is_page("sik-sorulan-sorular") ) {
         wp_enqueue_style( "mis360-360-sss-css", get_template_directory_uri() . "/assets/css/sss.css", array(), MIS360_360_VERSION );
     }
@@ -65,7 +68,8 @@ function mis360_360_create_default_pages() {
         "Hizmetlerimiz" => "hizmetlerimiz",
         "Projeler" => "projeler",
         "İletişim" => "iletisim",
-        "Teklif" => "teklif"
+        "Teklif" => "teklif",
+        "Referanslar" => "referanslar"
     );
 
     foreach ( $pages as $title => $slug ) {
@@ -114,7 +118,8 @@ add_action( 'init', function() {
             'hizmetlerimiz' => 'Hizmetlerimiz',
             'projeler' => 'Projeler',
             'iletisim' => 'İletişim',
-            'teklif' => 'Teklif'
+            'teklif' => 'Teklif',
+            'referanslar' => 'Referanslar'
         );
         foreach ( $fixes as $slug => $correct_title ) {
             $page = get_page_by_path( $slug );
