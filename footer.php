@@ -54,7 +54,7 @@
                                                 <ul class="mis360-360-footer-links">
                                                         <li><a href="/hakkimizda">Hakkımızda</a></li>
                                                         <li><a href="/projeler">Projelerimiz</a></li>
-                                <li><a href="/referanslar">Referanslar</a></li>
+                                
                                                         <li><a href="/blog">Blog</a></li>
                                                         <li><a href="/iletisim/">Kariyer</a></li>
                                                         <li><a href="/iletisim">İletişim</a></li>
