@@ -1,0 +1,1609 @@
+body.mis360-360-dark {
+    --mis360-360-primary: #ffffff;
+    --mis360-360-secondary: #000000;
+    --mis360-360-gray: #999999;
+    --mis360-360-light-gray: #1a1a1a;
+    --mis360-360-border: #333333;
+    --mis360-360-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mis360-360-header {
+    background: rgba(0, 0, 0, 0.95);
+}
+
+body.mis360-360-dark .mis360-360-logo-img {
+    filter: brightness(0) invert(1);
+}
+
+body.mis360-360-dark .mis360-360-megamenu-dropdown {
+    background: rgba(20, 20, 20, 0.98);
+}
+
+body.mis360-360-dark .mis360-360-megamenu-panel-section-header {
+    border-bottom-color: #333;
+}
+
+body.mis360-360-dark .mis360-360-megamenu-panel-section-title {
+    color: #fff;
+}
+
+body.mis360-360-dark .mis360-360-megamenu-panel-link {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mis360-360-megamenu-panel-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-megamenu-panel-link .link-title {
+    color: #fff;
+}
+
+body.mis360-360-dark .mis360-360-megamenu-panel-link .link-desc {
+    color: #999;
+}
+
+body.mis360-360-dark .mis360-360-submenu {
+    background: var(--mis360-360-dark-secondary);
+    border-color: var(--mis360-360-dark-border);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-submenu a {
+    color: var(--mis360-360-dark-primary);
+}
+
+body.mis360-360-dark .mis360-360-submenu a:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mis360-360-submenu-level-2 {
+    background: var(--mis360-360-dark-secondary);
+    border-color: var(--mis360-360-dark-border);
+}
+
+body.mis360-360-dark .mis360-360-notification-panel {
+    background: #1a1a1a;
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mis360-360-notification-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-notification-item:hover {
+    background: rgba(255, 107, 0, 0.1);
+    border-color: rgba(255, 107, 0, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-notification-item:active {
+    transform: none;
+}
+
+body.mis360-360-dark .mis360-360-notification-empty {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+body.mis360-360-dark .mis360-360-notification-empty i {
+    color: var(--mis360-360-accent);
+    opacity: 0.6;
+}
+
+body.mis360-360-dark .mis360-360-notification-empty p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+body.mis360-360-dark .mis360-360-grid-bg {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+}
+
+body.mis360-360-dark .mis360-360-grid-bg::after {
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.9) 100%);
+}
+
+body.mis360-360-dark .mis360-360-tech-badge {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 
+        0 2px 8px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mis360-360-tech-badge:hover {
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 
+        0 8px 24px rgba(255, 107, 0, 0.25),
+        0 0 0 1px rgba(255, 107, 0, 0.15);
+}
+
+body.mis360-360-dark .mis360-360-tech-badge-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body.mis360-360-dark .mis360-360-tech-badge:hover .mis360-360-tech-badge-text {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-mobile-logo-img {
+    filter: brightness(0) invert(1);
+}
+
+body.mis360-360-dark .mis360-360-mobile-sidebar {
+    background: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-mobile-sidebar-header {
+    background: var(--mis360-360-secondary);
+    border-bottom-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-mobile-close-btn {
+    border-color: var(--mis360-360-border);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-mobile-close-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-nav {
+    background: linear-gradient(180deg, var(--mis360-360-secondary) 0%, #0a0a0a 100%);
+}
+
+body.mis360-360-dark .mobile-nav-link {
+    color: var(--mis360-360-primary);
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.mis360-360-dark .mobile-nav-link:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-color: rgba(255, 107, 0, 0.3);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .mobile-nav-link > i:first-of-type {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.05) 100%);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-nav-link:hover > i:first-of-type {
+    background: linear-gradient(135deg, var(--mis360-360-accent) 0%, #ff8533 100%);
+    color: var(--mis360-360-secondary);
+    box-shadow: 0 4px 12px rgba(255, 107, 0, 0.3);
+}
+
+body.mis360-360-dark .mobile-nav-text {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-nav-link:hover .mobile-nav-text {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-submenu-arrow {
+    color: var(--mis360-360-gray);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mobile-nav-link:hover .mobile-submenu-arrow {
+    color: var(--mis360-360-primary);
+    background: rgba(255, 107, 0, 0.15);
+}
+
+body.mis360-360-dark .mobile-nav-item-has-submenu.active .mobile-submenu-arrow {
+    background: var(--mis360-360-accent);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mobile-nav-item-has-submenu.active .mobile-nav-link {
+    background: linear-gradient(135deg, rgba(255, 107, 0, 0.1) 0%, rgba(255, 107, 0, 0.05) 100%);
+    border-color: rgba(255, 107, 0, 0.3);
+}
+
+body.mis360-360-dark .mobile-submenu {
+    background: transparent;
+}
+
+body.mis360-360-dark .mobile-submenu > li > a {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mobile-submenu > li > a:hover {
+    background: linear-gradient(90deg, rgba(255, 107, 0, 0.1) 0%, transparent 100%);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-submenu > li > a::before {
+    background: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mobile-submenu-dot {
+    background: var(--mis360-360-accent);
+    opacity: 0.5;
+}
+
+body.mis360-360-dark .mobile-submenu > li > a:hover .mobile-submenu-dot {
+    opacity: 1;
+    box-shadow: 0 0 8px rgba(255, 107, 0, 0.5);
+}
+
+body.mis360-360-dark .mobile-nav-cards {
+    border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mobile-nav-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    border-color: var(--mis360-360-border);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.mis360-360-dark .mobile-nav-card:hover {
+    background: linear-gradient(135deg, rgba(255, 107, 0, 0.1) 0%, rgba(255, 107, 0, 0.05) 100%);
+    border-color: rgba(255, 107, 0, 0.3);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .mobile-nav-card-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-nav-card-desc {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mobile-nav-card:hover .mobile-nav-card-desc {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mobile-nav-card-arrow {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mobile-nav-card:hover .mobile-nav-card-arrow {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mobile-nav-social {
+    border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mobile-nav-social-title {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mobile-nav-social-icon {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.05) 100%);
+    color: var(--mis360-360-primary);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mobile-nav-social-icon:hover {
+    background: linear-gradient(135deg, var(--mis360-360-accent) 0%, #ff8533 100%);
+    color: var(--mis360-360-secondary);
+    box-shadow: 0 4px 12px rgba(255, 107, 0, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-mobile-actions {
+    border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-mobile-action-btn {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+    border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-mobile-action-btn:hover {
+    background: var(--mis360-360-secondary);
+    color: var(--mis360-360-primary);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-mobile-theme-toggle {
+    background: var(--mis360-360-secondary) !important;
+    color: var(--mis360-360-primary) !important;
+    border-color: var(--mis360-360-border) !important;
+}
+
+body.mis360-360-dark .mis360-360-mobile-theme-toggle:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: var(--mis360-360-primary) !important;
+    border-color: var(--mis360-360-primary) !important;
+}
+
+body.mis360-360-dark .mis360-360-gradient-text {
+    background: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+body.mis360-360-dark .mis360-360-logo-item img {
+    filter: grayscale(100%) opacity(0.5) brightness(2);
+}
+
+body.mis360-360-dark .mis360-360-logo-item:hover img {
+    filter: grayscale(0%) opacity(1) brightness(1);
+    transform: scale(1.05);
+}
+
+body.mis360-360-dark .mis360-360-floating-card {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: rgba(255, 107, 0, 0.3);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-floating-card:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+body.mis360-360-dark .mis360-360-floating-card span {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-shape {
+    border-color: rgba(255, 107, 0, 0.4);
+}
+
+body.mis360-360-dark .mis360-360-footer {
+    background: var(--mis360-360-secondary);
+    border-top: 1px solid var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-footer-logo-img {
+    filter: brightness(0) invert(1);
+}
+
+body.mis360-360-dark .mis360-360-footer-desc {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-social-link {
+    background: var(--mis360-360-light-gray);
+    border: 1px solid var(--mis360-360-border);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-footer-social-link:hover {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-footer-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-footer-links a {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-links a:hover {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-footer-links a::before {
+    background: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-contact-item svg {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-contact-value {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-contact-label {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-badge {
+    background: linear-gradient(135deg, rgba(255, 184, 0, 0.1) 0%, rgba(255, 184, 0, 0.05) 100%);
+    border: 1px solid rgba(255, 184, 0, 0.2);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-footer-badge:hover {
+    border-color: rgba(255, 184, 0, 0.4);
+    background: linear-gradient(135deg, rgba(255, 184, 0, 0.15) 0%, rgba(255, 184, 0, 0.08) 100%);
+}
+
+body.mis360-360-dark .mis360-360-footer-badge-safe {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.1) 0%, rgba(34, 197, 94, 0.05) 100%) !important;
+    border-color: rgba(34, 197, 94, 0.2) !important;
+}
+
+body.mis360-360-dark .mis360-360-footer-badge-safe:hover {
+    border-color: rgba(34, 197, 94, 0.4) !important;
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(34, 197, 94, 0.08) 100%) !important;
+}
+
+body.mis360-360-dark .mis360-360-footer-badge-safe svg,
+body.mis360-360-dark .mis360-360-footer-badge-safe i {
+    color: #22C55E !important;
+}
+
+body.mis360-360-dark .mis360-360-footer-tags {
+    border-top: 1px solid var(--mis360-360-border);
+    border-bottom: 1px solid var(--mis360-360-border);
+    background: rgba(0, 0, 0, 0.01);
+}
+
+body.mis360-360-dark .mis360-360-footer-tag {
+    color: var(--mis360-360-gray);
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-footer-tag:hover {
+    color: var(--mis360-360-primary);
+    background: rgba(0, 0, 0, 0.05);
+    border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-footer-legal a {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-legal a:hover {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-footer-legal a:not(:last-child)::after {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-copyright {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-footer-copyright strong {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-cta-content {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+}
+
+body.mis360-360-dark .mis360-360-cta-badge {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.mis360-360-dark .mis360-360-cta-btn-primary {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-cta-btn-primary:hover {
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2);
+}
+
+body.mis360-360-dark .mis360-360-cta-btn-secondary {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+body.mis360-360-dark .mis360-360-cta-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+body.mis360-360-dark .mis360-360-cta-trust {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-whatsapp-text {
+    background: white;
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-whatsapp-text::after {
+    border-left-color: white;
+}
+
+body.mis360-360-dark .mis360-360-btn-secondary {
+    color: #000000;
+}
+
+body.mis360-360-dark .proje-header-meta-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .proje-header-meta-item:hover {
+    border-color: var(--mis360-360-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .proje-header-meta-icon {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .proje-header-image-overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+body.mis360-360-dark .proje-stats-hero {
+    border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .proje-stat-card {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .proje-stat-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-primary);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .proje-stat-icon {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .proje-stat-card:hover .proje-stat-icon {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .proje-stat-number {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .proje-stat-label {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .proje-gallery-item {
+    border: 1px solid var(--mis360-360-border);
+}
+
+body.mis360-360-dark .proje-gallery-overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+body.mis360-360-dark .proje-lightbox {
+    background: rgba(0, 0, 0, 0.98);
+}
+
+body.mis360-360-dark .proje-info-action {
+    border-bottom-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .proje-info-btn {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .proje-info-btn:hover {
+    background: #e55a00;
+}
+
+body.mis360-360-dark .projeler-hero-section .mis360-360-grid-bg {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+}
+
+body.mis360-360-dark .projeler-hero-section .mis360-360-grid-bg::after {
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.9) 100%);
+}
+
+body.mis360-360-dark .projeler-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .projeler-card:hover {
+    border-color: var(--mis360-360-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .projeler-card-overlay {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+body.mis360-360-dark .projeler-card-badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .projeler-hero-btn {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .projeler-hero-btn:hover {
+    background: #e55a00;
+}
+
+body.mis360-360-dark .hizmetler-hero-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmetler-hero-description {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmetler-hero-btn {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .hizmetler-hero-btn:hover {
+    background: #e55a00;
+}
+
+body.mis360-360-dark .hizmetler-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .hizmetler-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmetler-card-icon {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmetler-card:hover .hizmetler-card-icon {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .hizmetler-card-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmetler-card-description {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmetler-card-features li {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmetler-card-features li i {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmetler-card-btn-secondary {
+    border-color: var(--mis360-360-primary);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmetler-card-btn-secondary:hover {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .hizmet-header-badge {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-header-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-header-description {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-header-meta-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .hizmet-header-meta-item:hover {
+    border-color: var(--mis360-360-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .hizmet-header-meta-icon {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-header-meta-label {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-header-meta-value {
+    color: var(--mis360-360-primary);
+}
+
+
+body.mis360-360-dark .hizmet-detail-block-content {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-detail-list li {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-detail-list li i {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-process-step-item {
+    border-bottom-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .hizmet-process-step-number {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-process-step-content h4 {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-process-step-content p {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-process-hero {
+    border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .hizmet-process-hero-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-process-hero-description {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-process-hero .hizmet-process-step-item {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .hizmet-process-hero .hizmet-process-step-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-primary);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .hizmet-process-number {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .hizmet-process-content h3 {
+    color: var(--mis360-360-primary);
+}
+
+
+body.mis360-360-dark .hizmet-info-item {
+    border-bottom-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .hizmet-info-item strong {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-info-item span {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-contact-info p {
+    color: var(--mis360-360-text-secondary);
+}
+
+body.mis360-360-dark .hizmet-contact-btn-secondary {
+    border-color: var(--mis360-360-primary);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .hizmet-contact-btn-secondary:hover {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .hizmet-header-section .mis360-360-grid-bg::after {
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0.7) 100%);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-section .mis360-360-teklif-grid-bg {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-section .mis360-360-teklif-grid-bg::after {
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.9) 100%);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-description {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-feature-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-feature-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-accent);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-feature-icon {
+    box-shadow: 0 4px 12px rgba(255, 107, 0, 0.4);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-feature-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-hero-feature-text {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-section {
+    background: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-main {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-step-header {
+    border-bottom-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .blog-hero-author-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--mis360-360-border);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .blog-hero-author-card .blog-author-name {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .blog-hero-author-card .blog-author-role {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .blog-hero-author-card .blog-author-avatar {
+  border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .blog-hero-author-card .blog-stat-item {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .blog-hero-author-card .blog-stat-item i {
+  color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .blog-hero-title {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .blog-hero-intro {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .blog-hero-meta .blog-meta-item {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .blog-archive-title {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .blog-archive-description {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-blog-post {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-blog-post:hover {
+  border-color: var(--mis360-360-primary);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-blog-category {
+  background: var(--mis360-360-primary);
+  color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-blog-author span {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-blog-date {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-blog-post-title a {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-blog-post-title a:hover {
+  color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-blog-excerpt {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-blog-footer {
+  border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-blog-stat-item {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-blog-stat-item svg {
+  color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-blog-link {
+  color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-blog-link:hover {
+  color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .blog-load-more-btn {
+  background: var(--mis360-360-primary);
+  color: var(--mis360-360-secondary);
+  border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .blog-load-more-btn:hover:not(:disabled) {
+  background: #2a2a2a;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+body.mis360-360-dark .loader-spinner {
+  border-color: var(--mis360-360-border);
+  border-top-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .blog-no-posts {
+  color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-step-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-step-description {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-label {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-label i {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-input,
+body.mis360-360-dark .mis360-360-teklif-form-select,
+body.mis360-360-dark .mis360-360-teklif-form-textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-border);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-input:focus,
+body.mis360-360-dark .mis360-360-teklif-form-select:focus,
+body.mis360-360-dark .mis360-360-teklif-form-textarea:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--mis360-360-accent);
+    box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-input::placeholder,
+body.mis360-360-dark .mis360-360-teklif-form-textarea::placeholder {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-group.mis360-360-teklif-error .mis360-360-teklif-form-input,
+body.mis360-360-dark .mis360-360-teklif-form-group.mis360-360-teklif-error .mis360-360-teklif-form-select,
+body.mis360-360-dark .mis360-360-teklif-form-group.mis360-360-teklif-error .mis360-360-teklif-form-textarea {
+    border-color: #ef4444;
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-error {
+    color: #ef4444;
+}
+
+body.mis360-360-dark .mis360-360-teklif-form-help {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-item {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-label {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-label i {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-item input[type="checkbox"]:checked ~ .mis360-360-teklif-checkbox-label {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-item.mis360-360-teklif-single .mis360-360-teklif-checkbox-label a {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-checkbox-item.mis360-360-teklif-single .mis360-360-teklif-checkbox-label a:hover {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-upload-label {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-border);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-upload-label:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-upload-label i {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-upload-label span {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-upload-label small {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-item-info {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-item-remove {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-file-item-remove:hover {
+    color: #ef4444;
+}
+
+body.mis360-360-dark .mis360-360-teklif-btn-primary {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-btn-primary:hover {
+    background: #2a2a2a;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+body.mis360-360-dark .mis360-360-teklif-btn-secondary {
+    background: transparent;
+    border-color: var(--mis360-360-primary);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-btn-secondary:hover {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-success-message {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-success-icon {
+    color: #10b981;
+}
+
+body.mis360-360-dark .mis360-360-teklif-success-message h3 {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-success-message p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-sidebar-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-sidebar-title i {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-item {
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-item.active {
+    border-color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-icon {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--mis360-360-gray);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-item.mis360-360-teklif-active .mis360-360-teklif-progress-icon {
+    background: var(--mis360-360-accent);
+    color: var(--mis360-360-secondary);
+    border-color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-item.mis360-360-teklif-completed .mis360-360-teklif-progress-icon {
+    background: #10b981;
+    color: var(--mis360-360-secondary);
+    border-color: #10b981;
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-progress-status {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-contact-info p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-contact-btn-primary {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-contact-btn-primary:hover {
+    background: #e55a00;
+}
+
+body.mis360-360-dark .mis360-360-teklif-contact-btn-secondary {
+    background: transparent;
+    border-color: var(--mis360-360-primary);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-contact-btn-secondary:hover {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-teklif-features-list li {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-teklif-features-list li i {
+    color: #10b981;
+}
+
+body.mis360-360-dark .mis360-360-iletisim-hero-section {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-hero-section .mis360-360-iletisim-grid-bg {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-hero-section .mis360-360-iletisim-grid-bg::after {
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.9) 100%);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-hero-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-hero-description {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-breadcrumb-list a {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-breadcrumb-list a:hover {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-breadcrumb-list li.mis360-360-iletisim-active {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-breadcrumb-list li:not(:last-child)::after {
+    color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-accent);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-icon {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-card:hover .mis360-360-iletisim-info-icon {
+    background: var(--mis360-360-accent);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-text {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-link {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-info-link:hover {
+    color: #ff8533;
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-section {
+    background: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-wrapper {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-description {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-label {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-label i {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-input,
+body.mis360-360-dark .mis360-360-iletisim-form-select,
+body.mis360-360-dark .mis360-360-iletisim-form-textarea {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--mis360-360-border);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-input:focus,
+body.mis360-360-dark .mis360-360-iletisim-form-select:focus,
+body.mis360-360-dark .mis360-360-iletisim-form-textarea:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--mis360-360-accent);
+    box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.1);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-input::placeholder,
+body.mis360-360-dark .mis360-360-iletisim-form-textarea::placeholder {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-group.error .mis360-360-iletisim-form-input,
+body.mis360-360-dark .mis360-360-iletisim-form-group.error .mis360-360-iletisim-form-select,
+body.mis360-360-dark .mis360-360-iletisim-form-group.error .mis360-360-iletisim-form-textarea {
+    border-color: #ef4444;
+}
+
+body.mis360-360-dark .mis360-360-iletisim-form-error {
+    color: #ef4444;
+}
+
+body.mis360-360-dark .mis360-360-iletisim-checkbox-label {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-checkbox-label a {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-btn-primary {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-btn-primary:hover {
+    background: #2a2a2a;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-btn-secondary {
+    background: transparent;
+    border-color: var(--mis360-360-primary);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-btn-secondary:hover {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-sidebar-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-sidebar-title i {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-work-hour-item {
+    border-bottom-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-work-day {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-work-time {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-quick-contact p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-contact-btn.mis360-360-btn-primary {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-contact-btn.mis360-360-btn-primary:hover {
+    background: #2a2a2a;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-contact-btn.mis360-360-btn-whatsapp {
+    background: #25D366;
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-contact-btn.mis360-360-btn-whatsapp:hover {
+    background: #20ba5a;
+    box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-social p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-social-link {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-social-link:hover {
+    background: var(--mis360-360-accent);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-map-wrapper {
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-map-info {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-map-info-content h3 {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-map-info-content p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-map-link {
+    color: var(--mis360-360-accent);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-success-message {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-success-message h3 {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-iletisim-success-message p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-pricing-section {
+    background: var(--mis360-360-secondary);
+    border-top-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-pricing-title {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-description {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-pricing-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-pricing-card:hover {
+    border-color: var(--mis360-360-primary);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+body.mis360-360-dark .mis360-360-pricing-featured {
+    border-color: var(--mis360-360-accent);
+    background: linear-gradient(180deg, rgba(255, 107, 0, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+}
+
+body.mis360-360-dark .mis360-360-pricing-badge {
+    background: var(--mis360-360-accent);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-badge svg {
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-icon {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-card-header h3 {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-card-header p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-price-amount {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-price-currency {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-features li {
+    color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-btn-primary {
+    background: var(--mis360-360-primary);
+    color: var(--mis360-360-secondary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-btn-primary:hover {
+    background: #e55a00;
+}
+
+body.mis360-360-dark .mis360-360-pricing-btn-secondary {
+    background: transparent;
+    color: var(--mis360-360-primary);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-pricing-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--mis360-360-primary);
+}
+
+body.mis360-360-dark .mis360-360-pricing-note {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--mis360-360-border);
+}
+
+body.mis360-360-dark .mis360-360-pricing-note p {
+    color: var(--mis360-360-gray);
+}
+
+body.mis360-360-dark .mis360-360-pricing-note svg {
+    color: var(--mis360-360-gray);
+}
+
+
