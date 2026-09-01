@@ -1,0 +1,221 @@
+:root {
+    --teklif-bg: #ffffff;
+    --teklif-text: #333333;
+    --teklif-muted: #666666;
+    --teklif-border: rgba(0,0,0,0.1);
+    --teklif-card-bg: #f8fafc;
+    --teklif-gradient: linear-gradient(135deg, #2563eb, #7c3aed);
+    --teklif-shadow: 0 10px 30px -10px rgba(0,0,0,0.1);
+}
+
+body.dark-mode, [data-theme="dark"] {
+    --teklif-bg: #0f172a;
+    --teklif-text: #f8fafc;
+    --teklif-muted: #94a3b8;
+    --teklif-border: rgba(255,255,255,0.1);
+    --teklif-card-bg: #1e293b;
+    --teklif-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+}
+
+.teklif-page {
+    background-color: var(--teklif-bg);
+    color: var(--teklif-text);
+    padding-bottom: 80px;
+}
+
+/* Hero */
+.teklif-hero {
+    position: relative;
+    padding: 120px 0 60px;
+    text-align: center;
+    overflow: hidden;
+}
+.teklif-hero-bg {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+.teklif-hero-shape-1 {
+    position: absolute;
+    top: -50%; left: -10%;
+    width: 50%; height: 200%;
+    background: radial-gradient(circle, rgba(37,99,235,0.05) 0%, transparent 70%);
+}
+.teklif-hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.teklif-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(37,99,235,0.1);
+    color: #2563eb;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.teklif-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background: var(--teklif-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.teklif-subtitle {
+    font-size: 1.2rem;
+    color: var(--teklif-muted);
+    line-height: 1.6;
+}
+
+/* Layout */
+.teklif-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+@media(max-width: 992px) {
+    .teklif-layout { grid-template-columns: 1fr; }
+}
+
+/* Form Container */
+.teklif-form-box {
+    background: var(--teklif-card-bg);
+    border: 1px solid var(--teklif-border);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--teklif-shadow);
+}
+@media(max-width: 768px) {
+    .teklif-form-box { padding: 25px; }
+}
+.teklif-section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--teklif-border);
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.teklif-section-title i {
+    color: #2563eb;
+}
+.teklif-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+@media(max-width: 768px) {
+    .teklif-row { grid-template-columns: 1fr; }
+}
+.teklif-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.teklif-group label {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.teklif-group input, 
+.teklif-group select, 
+.teklif-group textarea {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--teklif-border);
+    background: var(--teklif-bg);
+    color: var(--teklif-text);
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+.teklif-group input:focus, 
+.teklif-group select:focus, 
+.teklif-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}
+.teklif-submit {
+    margin-top: 20px;
+    background: var(--teklif-gradient);
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.teklif-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(37,99,235,0.2);
+}
+
+/* Sidebar */
+.teklif-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.teklif-info-card {
+    background: var(--teklif-card-bg);
+    border: 1px solid var(--teklif-border);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: var(--teklif-shadow);
+}
+.teklif-info-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.teklif-feature {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.teklif-feature:last-child {
+    margin-bottom: 0;
+}
+.teklif-feature .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(37,99,235,0.1);
+    color: #2563eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1.2rem;
+}
+.teklif-feature .text h4 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.teklif-feature .text p {
+    font-size: 0.9rem;
+    color: var(--teklif-muted);
+    line-height: 1.5;
+}

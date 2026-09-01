@@ -44,6 +44,9 @@ function mis360_360_scripts() {
     if ( is_page("iletisim") ) {
         wp_enqueue_style( "mis360-360-iletisim-css", get_template_directory_uri() . "/assets/css/iletisim.css", array(), MIS360_360_VERSION );
     }
+    if ( is_page("teklif") ) {
+        wp_enqueue_style( "mis360-360-teklif-css", get_template_directory_uri() . "/assets/css/teklif.css", array(), MIS360_360_VERSION );
+    }
     if ( is_page("sss") || is_page("sik-sorulan-sorular") ) {
         wp_enqueue_style( "mis360-360-sss-css", get_template_directory_uri() . "/assets/css/sss.css", array(), MIS360_360_VERSION );
     }
