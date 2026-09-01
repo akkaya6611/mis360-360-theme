@@ -24,7 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['teklif_action'])) {
         $body .= "Bütçe: $butce\n\n";
         $body .= "Proje Detayı:\n$detay\n";
         
-        $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $isim . ' <' . $email . '>');
+        $headers = array(
+            'Content-Type: text/plain; charset=UTF-8', 
+            'From: Mis Teknoloji Web <wordpress@' . $_SERVER['SERVER_NAME'] . '>',
+            'Reply-To: ' . $isim . ' <' . $email . '>'
+        );
 
         if (wp_mail($to, $subject, $body, $headers)) {
             $form_status = 'success';
