@@ -717,12 +717,6 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref1.webp" alt="Referans 1" title="Referans 1" width="195" height="65" loading="lazy">
                 </div>
                                 <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref2.webp" alt="Referans 2" title="Referans 2" width="195" height="65" loading="lazy">
-                </div>
-                                <div class="mis360-360-logo-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref3.webp" alt="Referans 3" title="Referans 3" width="195" height="65" loading="lazy">
-                </div>
-                                <div class="mis360-360-logo-item">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref4.webp" alt="Referans 4" title="Referans 4" width="195" height="65" loading="lazy">
                 </div>
                                 <div class="mis360-360-logo-item">
