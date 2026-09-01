@@ -1,3 +1,44 @@
+<?php
+$form_message = '';
+$form_status = '';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['teklif_action'])) {
+    $isim = sanitize_text_field($_POST['isim'] ?? '');
+    $firma = sanitize_text_field($_POST['firma'] ?? '');
+    $email = sanitize_email($_POST['email'] ?? '');
+    $telefon = sanitize_text_field($_POST['telefon'] ?? '');
+    $hizmet = sanitize_text_field($_POST['hizmet'] ?? '');
+    $butce = sanitize_text_field($_POST['butce'] ?? '');
+    $detay = sanitize_textarea_field($_POST['detay'] ?? '');
+
+    if (!empty($isim) && !empty($email) && is_email($email)) {
+        $to = 'info@misteknoloji360.com.tr';
+        $subject = 'Yeni Teklif Talebi: ' . $isim;
+        
+        $body = "Yeni bir teklif talebi aldınız:\n\n";
+        $body .= "Ad Soyad: $isim\n";
+        $body .= "Firma: $firma\n";
+        $body .= "E-posta: $email\n";
+        $body .= "Telefon: $telefon\n";
+        $body .= "Hizmet: $hizmet\n";
+        $body .= "Bütçe: $butce\n\n";
+        $body .= "Proje Detayı:\n$detay\n";
+        
+        $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $isim . ' <' . $email . '>');
+
+        if (wp_mail($to, $subject, $body, $headers)) {
+            $form_status = 'success';
+            $form_message = 'Teklif talebiniz başarıyla alındı. Ekibimiz en kısa sürede sizinle iletişime geçecektir.';
+        } else {
+            $form_status = 'error';
+            $form_message = 'Mesajınız gönderilirken bir hata oluştu. Lütfen doğrudan iletişim kanallarımızı kullanın.';
+        }
+    } else {
+        $form_status = 'error';
+        $form_message = 'Lütfen zorunlu alanları eksiksiz doldurun.';
+    }
+}
+?>
 <?php get_header(); ?>
 <main class="teklif-page">
     <!-- Hero Section -->
@@ -19,7 +60,13 @@
     <section class="teklif-layout">
         <!-- Form -->
         <div class="teklif-form-box">
-            <form action="#" method="POST" class="teklif-form">
+            <form action="" method="POST" class="teklif-form">
+                <input type="hidden" name="teklif_action" value="1">
+                <?php if(!empty($form_message)): ?>
+                    <div style="padding: 15px; margin-bottom: 20px; border-radius: 8px; color: #fff; background: <?php echo ($form_status == 'success') ? '#10b981' : '#ef4444'; ?>;">
+                        <?php echo esc_html($form_message); ?>
+                    </div>
+                <?php endif; ?>
                 <h2 class="teklif-section-title"><i class="fas fa-user"></i> İletişim Bilgileriniz</h2>
                 <div class="teklif-row">
                     <div class="teklif-group">

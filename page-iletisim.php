@@ -1,3 +1,40 @@
+<?php
+$form_message = '';
+$form_status = '';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['iletisim_action'])) {
+    $isim = sanitize_text_field($_POST['isim'] ?? '');
+    $email = sanitize_email($_POST['email'] ?? '');
+    $telefon = sanitize_text_field($_POST['telefon'] ?? '');
+    $konu = sanitize_text_field($_POST['konu'] ?? '');
+    $mesaj = sanitize_textarea_field($_POST['mesaj'] ?? '');
+
+    if (!empty($isim) && !empty($email) && is_email($email) && !empty($mesaj)) {
+        $to = 'info@misteknoloji360.com.tr';
+        $subject = 'İletişim Formu Mesajı: ' . $konu;
+        
+        $body = "Web sitenizden yeni bir iletişim mesajı aldınız:\n\n";
+        $body .= "Ad Soyad: $isim\n";
+        $body .= "E-posta: $email\n";
+        $body .= "Telefon: $telefon\n";
+        $body .= "Konu: $konu\n\n";
+        $body .= "Mesaj:\n$mesaj\n";
+        
+        $headers = array('Content-Type: text/plain; charset=UTF-8', 'From: ' . $isim . ' <' . $email . '>');
+
+        if (wp_mail($to, $subject, $body, $headers)) {
+            $form_status = 'success';
+            $form_message = 'Mesajınız başarıyla gönderildi. En kısa sürede dönüş yapacağız.';
+        } else {
+            $form_status = 'error';
+            $form_message = 'Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin.';
+        }
+    } else {
+        $form_status = 'error';
+        $form_message = 'Lütfen zorunlu alanları doldurun.';
+    }
+}
+?>
 <?php get_header(); ?>
 <main class="iletisim-page">
     <section class="iletisim-hero">
@@ -58,7 +95,13 @@
                         <h2>Mesaj Gönderin</h2>
                         <p>Aşağıdaki formu doldurarak bize hızlıca ulaşabilirsiniz. Ekibimiz en kısa sürede size dönüş yapacaktır.</p>
                     </div>
-                    <form class="iletisim-form" action="#" method="POST">
+                    <form class="iletisim-form" action="" method="POST">
+                        <input type="hidden" name="iletisim_action" value="1">
+                        <?php if(!empty($form_message)): ?>
+                            <div style="padding: 15px; margin-bottom: 20px; border-radius: 8px; color: #fff; background: <?php echo ($form_status == 'success') ? '#10b981' : '#ef4444'; ?>;">
+                                <?php echo esc_html($form_message); ?>
+                            </div>
+                        <?php endif; ?>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Adınız Soyadınız</label>
