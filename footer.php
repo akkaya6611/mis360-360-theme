@@ -41,24 +41,24 @@
                                         <div class="mis360-360-footer-column">
                         <h3 class="mis360-360-footer-title">Hizmetlerimiz</h3>
                                                 <ul class="mis360-360-footer-links">
-                                                        <li><a href="/hizmetlerimiz">Web Tasarım</a></li>
-                                                        <li><a href="/hizmetlerimiz">Yazılım Geliştirme</a></li>
-                                                        <li><a href="/hizmetlerimiz">WordPress Çözümleri</a></li>
-                                                        <li><a href="/hizmetlerimiz">Grafik Tasarım</a></li>
-                                                        <li><a href="/hizmetlerimiz">Mobil Uygulama</a></li>
-                                                        <li><a href="/hizmetlerimiz">Dijital Pazarlama</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">Web Tasarım</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">Yazılım Geliştirme</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">WordPress Çözümleri</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">Grafik Tasarım</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">Mobil Uygulama</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hizmetlerimiz/" ) ); ?>">Dijital Pazarlama</a></li>
                                                     </ul>
                                             </div>
                                         <div class="mis360-360-footer-column">
                         <h3 class="mis360-360-footer-title">Kurumsal</h3>
                                                 <ul class="mis360-360-footer-links">
-                                                        <li><a href="/hakkimizda">Hakkımızda</a></li>
-                                                        <li><a href="/projeler">Projelerimiz</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/hakkimizda/" ) ); ?>">Hakkımızda</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/projeler/" ) ); ?>">Projelerimiz</a></li>
                                 
-                                                        <li><a href="/blog">Blog</a></li>
-                                                        <li><a href="/iletisim/">Kariyer</a></li>
-                                                        <li><a href="/iletisim">İletişim</a></li>
-                                                        <li><a href="/sss/">SSS</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/blog/" ) ); ?>">Blog</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/iletisim/" ) ); ?>">Kariyer</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/iletisim/" ) ); ?>">İletişim</a></li>
+                                                        <li><a href="<?php echo esc_url( home_url( "/sss/" ) ); ?>">SSS</a></li>
                                                     </ul>
                                             </div>
                                         <div class="mis360-360-footer-column">
@@ -133,7 +133,7 @@
                             © 2026 Mis Teknoloji 360. Tüm hakları saklıdır.                        </p>
                     </div>
                                         <div class="mis360-360-footer-legal">
-                        <a href="/banka/">Banka Bilgileri</a><a href="/sss/">Sık Sorulan Sorular</a>                    </div>
+                        <a href="<?php echo esc_url( home_url( "/banka/" ) ); ?>">Banka Bilgileri</a><a href="<?php echo esc_url( home_url( "/sss/" ) ); ?>">Sık Sorulan Sorular</a>                    </div>
                                     </div>
             </div>
         </div>
