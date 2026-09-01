@@ -53,28 +53,28 @@
                                     <span class="mis360-360-megamenu-panel-section-title">Web Geliştirme</span>
                                 </div>
                                                                 <div class="mis360-360-megamenu-panel-links">
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fas fa-building"></i>
                                         <div>
                                             <span class="link-title">Kurumsal Web Sitesi</span>
                                                                                         <span class="link-desc">Profesyonel kurumsal web çözümleri</span>
                                                                                     </div>
                                     </a>
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fas fa-shopping-cart"></i>
                                         <div>
                                             <span class="link-title">E-Ticaret Çözümleri</span>
                                                                                         <span class="link-desc">Online satış platformları</span>
                                                                                     </div>
                                     </a>
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fas fa-cogs"></i>
                                         <div>
                                             <span class="link-title">Özel Yazılım</span>
                                                                                         <span class="link-desc">İhtiyacınıza özel yazılım geliştirme</span>
                                                                                     </div>
                                     </a>
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fas fa-mobile-alt"></i>
                                         <div>
                                             <span class="link-title">Mobil Uygulama</span>
@@ -89,28 +89,28 @@
                                     <span class="mis360-360-megamenu-panel-section-title">Dijital Pazarlama</span>
                                 </div>
                                                                 <div class="mis360-360-megamenu-panel-links">
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fas fa-search"></i>
                                         <div>
                                             <span class="link-title">SEO Optimizasyonu</span>
                                                                                         <span class="link-desc">Arama motoru optimizasyonu</span>
                                                                                     </div>
                                     </a>
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fab fa-facebook"></i>
                                         <div>
                                             <span class="link-title">Sosyal Medya Yönetimi</span>
                                                                                         <span class="link-desc">Profesyonel sosyal medya hizmetleri</span>
                                                                                     </div>
                                     </a>
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fab fa-google"></i>
                                         <div>
                                             <span class="link-title">Google Ads</span>
                                                                                         <span class="link-desc">Reklam kampanyası yönetimi</span>
                                                                                     </div>
                                     </a>
-                                                                        <a href="javascript:void(0);" class="mis360-360-megamenu-panel-link">
+                                                                        <a href="/hizmetlerimiz/" class="mis360-360-megamenu-panel-link">
                                         <i class="fas fa-chart-bar"></i>
                                         <div>
                                             <span class="link-title">Analytics &amp; Raporlama</span>
@@ -126,7 +126,7 @@
                                     </div>
                                                                                                             <h3>Projenizi Başlatın</h3>
                                                                                                             <p>Hemen teklif alın ve projenizi hayata geçirin. 24 saat içinde size geri dönüş yapıyoruz.</p>
-                                                                                                            <a href="javascript:void(0);" class="mis360-360-megamenu-panel-cta-btn">
+                                                                                                            <a href="/teklif/" class="mis360-360-megamenu-panel-cta-btn">
                                         <span>Ücretsiz Teklif Al</span>
                                         <i class="fas fa-arrow-right"></i>
                                     </a>
@@ -150,12 +150,12 @@
                     </div>
                 </div>
                                 
-                                <a href="javascript:void(0);" class="mis360-360-text-btn mis360-360-quote-btn" aria-label="Teklif Al">
+                                <a href="/teklif/" class="mis360-360-text-btn mis360-360-quote-btn" aria-label="Teklif Al">
                     <i class="fas fa-star"></i>
                     <span>Teklif Al</span>
                 </a>
                                 
-                                <a href="javascript:void(0);" class="mis360-360-text-btn mis360-360-quote-btn" aria-label="İletişim">
+                                <a href="/iletisim/" class="mis360-360-text-btn mis360-360-quote-btn" aria-label="İletişim">
                     <i class="fas fa-envelope"></i>
                     <span>İletişim</span>
                 </a>

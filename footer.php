@@ -55,20 +55,20 @@
                                                         <li><a href="/hakkimizda">Hakkımızda</a></li>
                                                         <li><a href="/projeler">Projelerimiz</a></li>
                                                         <li><a href="/blog">Blog</a></li>
-                                                        <li><a href="javascript:void(0);">Kariyer</a></li>
+                                                        <li><a href="/iletisim/">Kariyer</a></li>
                                                         <li><a href="/iletisim">İletişim</a></li>
-                                                        <li><a href="javascript:void(0);">SSS</a></li>
+                                                        <li><a href="/sss/">SSS</a></li>
                                                     </ul>
                                             </div>
                                         <div class="mis360-360-footer-column">
                         <h3 class="mis360-360-footer-title">Kaynaklar</h3>
                                                 <ul class="mis360-360-footer-links">
-                                                        <li><a href="javascript:void(0);">Dokümantasyon</a></li>
-                                                        <li><a href="javascript:void(0);">Destek Merkezi</a></li>
-                                                        <li><a href="javascript:void(0);">Gizlilik Politikası</a></li>
-                                                        <li><a href="javascript:void(0);">Kullanım Şartları</a></li>
-                                                        <li><a href="javascript:void(0);">KVKK</a></li>
-                                                        <li><a href="javascript:void(0);">Çerez Politikası</a></li>
+                                                        <li><a href="#">Dokümantasyon</a></li>
+                                                        <li><a href="#">Destek Merkezi</a></li>
+                                                        <li><a href="#">Gizlilik Politikası</a></li>
+                                                        <li><a href="#">Kullanım Şartları</a></li>
+                                                        <li><a href="#">KVKK</a></li>
+                                                        <li><a href="#">Çerez Politikası</a></li>
                                                     </ul>
                                             </div>
                                         
@@ -132,7 +132,7 @@
                             © 2026 Mis Teknoloji 360. Tüm hakları saklıdır.                        </p>
                     </div>
                                         <div class="mis360-360-footer-legal">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>">Banka Bilgileri</a><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Sık Sorulan Sorular</a>                    </div>
+                        <a href="/banka/">Banka Bilgileri</a><a href="/sss/">Sık Sorulan Sorular</a>                    </div>
                                     </div>
             </div>
         </div>
