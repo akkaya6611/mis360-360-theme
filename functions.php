@@ -68,3 +68,19 @@ add_action( "init", function() {
     }
 } );
 
+
+
+/**
+ * GitHub �zerinden otomatik tema g�ncellemelerini kontrol et
+ */
+require_once( get_template_directory() . "/plugin-update-checker/plugin-update-checker.php" );
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	"https://github.com/akkaya6611/mis360-360-theme/",
+	__FILE__,
+	"mis360-360"
+);
+
+// Sadece main (ana) dal�ndaki g�ncellemeleri �ek
+$myUpdateChecker->setBranch("main");
