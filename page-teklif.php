@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['teklif_action'])) {
     $detay = sanitize_textarea_field($_POST['detay'] ?? '');
 
     if (!empty($isim) && !empty($email) && is_email($email)) {
-        $to = 'info@misteknoloji360.com.tr';
+        $to = 's.akkaya0166@gmail.com';
         $subject = 'Yeni Teklif Talebi: ' . $isim;
         
         $body = "Yeni bir teklif talebi aldınız:\n\n";
