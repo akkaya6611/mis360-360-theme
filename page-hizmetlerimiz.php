@@ -44,11 +44,11 @@
                                                 <li><i class="fas fa-check"></i> Modern UI/UX</li>
                                             </ul>
                                         <div class="hizmetler-card-actions">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
+                        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
                             <span>Teklif Al</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
+                        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
                             <span>Detay</span>
                             <i class="fas fa-info-circle"></i>
                         </a>
@@ -68,11 +68,11 @@
                                                 <li><i class="fas fa-check"></i> Sistem Entegrasyonu</li>
                                             </ul>
                                         <div class="hizmetler-card-actions">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
+                        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
                             <span>Teklif Al</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
+                        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
                             <span>Detay</span>
                             <i class="fas fa-info-circle"></i>
                         </a>
@@ -92,11 +92,11 @@
                                                 <li><i class="fas fa-check"></i> Bakım ve Destek</li>
                                             </ul>
                                         <div class="hizmetler-card-actions">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
+                        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
                             <span>Teklif Al</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
+                        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
                             <span>Detay</span>
                             <i class="fas fa-info-circle"></i>
                         </a>
@@ -116,11 +116,11 @@
                                                 <li><i class="fas fa-check"></i> Dijital Tasarım</li>
                                             </ul>
                                         <div class="hizmetler-card-actions">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
+                        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
                             <span>Teklif Al</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
+                        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
                             <span>Detay</span>
                             <i class="fas fa-info-circle"></i>
                         </a>
@@ -140,11 +140,11 @@
                                                 <li><i class="fas fa-check"></i> App Store Optimizasyonu</li>
                                             </ul>
                                         <div class="hizmetler-card-actions">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
+                        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
                             <span>Teklif Al</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
+                        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
                             <span>Detay</span>
                             <i class="fas fa-info-circle"></i>
                         </a>
@@ -164,11 +164,11 @@
                                                 <li><i class="fas fa-check"></i> İçerik Pazarlama</li>
                                             </ul>
                                         <div class="hizmetler-card-actions">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
+                        <a href="<?php echo esc_url( home_url( '/teklif/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary">
                             <span>Teklif Al</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
+                        <a href="<?php echo esc_url( home_url( '/iletisim/' ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-secondary">
                             <span>Detay</span>
                             <i class="fas fa-info-circle"></i>
                         </a>
