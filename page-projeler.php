@@ -28,64 +28,68 @@
     <section class="mis360-360-projects-section" id="projectsGrid">
         <div class="mis360-360-projects-container">
             <div class="projeler-grid">
-                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
+                <a href="https://beyzadeetbalikrestaurant.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Kurumsal Portal" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Beyzade Et Balık Restaurant" loading="lazy">
                         <div class="projeler-card-overlay">
-                            <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
+                            <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
                     </div>
                     <div class="projeler-card-content">
-                        <div class="projeler-card-badge">Proje</div>
-                        <h3 class="projeler-card-title">Kurumsal Portal</h3>
+                        <div class="projeler-card-badge">Kurumsal</div>
+                        <h3 class="projeler-card-title">Beyzade Et Balık Restaurant</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
+                
+                <a href="https://ototamircibul.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp" alt="Dijital Pazarlama Kampanyası" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp" alt="Oto Tamirci Bul" loading="lazy">
                         <div class="projeler-card-overlay">
-                            <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
+                            <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
                     </div>
                     <div class="projeler-card-content">
-                        <div class="projeler-card-badge">Proje</div>
-                        <h3 class="projeler-card-title">Dijital Pazarlama Kampanyası</h3>
+                        <div class="projeler-card-badge">Portal</div>
+                        <h3 class="projeler-card-title">Oto Tamirci Bul</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
+                
+                <a href="https://yolyardimmerkezi.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-mobil.jpg" alt="Mobil Uygulama" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-mobil.jpg" alt="Yol Yardım Merkezi" loading="lazy">
                         <div class="projeler-card-overlay">
-                            <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
+                            <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
                     </div>
                     <div class="projeler-card-content">
-                        <div class="projeler-card-badge">Popüler</div>
-                        <h3 class="projeler-card-title">Mobil Uygulama</h3>
+                        <div class="projeler-card-badge">Hizmet</div>
+                        <h3 class="projeler-card-title">Yol Yardım Merkezi</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
+                
+                <a href="https://ratemomobilya.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Kurumsal Web Sitesi" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-eticaret.jpg" alt="Ratemo Mobilya" loading="lazy">
                         <div class="projeler-card-overlay">
-                            <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
+                            <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
                     </div>
                     <div class="projeler-card-content">
-                        <div class="projeler-card-badge">Proje</div>
-                        <h3 class="projeler-card-title">Kurumsal Web Sitesi</h3>
+                        <div class="projeler-card-badge">E-Ticaret</div>
+                        <h3 class="projeler-card-title">Ratemo Mobilya</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
+                
+                <a href="http://emdiefhome.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-eticaret.jpg" alt="E-Ticaret Platformu" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Emdief Home" loading="lazy">
                         <div class="projeler-card-overlay">
-                            <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
+                            <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
                     </div>
                     <div class="projeler-card-content">
-                        <div class="projeler-card-badge">Başarılı</div>
-                        <h3 class="projeler-card-title">E-Ticaret Platformu</h3>
+                        <div class="projeler-card-badge">Kurumsal</div>
+                        <h3 class="projeler-card-title">Emdief Home</h3>
                     </div>
                 </a>
             </div>
