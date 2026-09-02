@@ -28,9 +28,9 @@
     <section class="mis360-360-projects-section" id="projectsGrid">
         <div class="mis360-360-projects-container">
             <div class="projeler-grid">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="projeler-card">
+                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/w1.webp" alt="Kurumsal Portal" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Kurumsal Portal" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
                         </div>
@@ -40,9 +40,9 @@
                         <h3 class="projeler-card-title">Kurumsal Portal</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="projeler-card">
+                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/w2.webp" alt="Dijital Pazarlama Kampanyası" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/p2.webp" alt="Dijital Pazarlama Kampanyası" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
                         </div>
@@ -52,9 +52,9 @@
                         <h3 class="projeler-card-title">Dijital Pazarlama Kampanyası</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="projeler-card">
+                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/w3.webp" alt="Mobil Uygulama" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-mobil.jpg" alt="Mobil Uygulama" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
                         </div>
@@ -64,9 +64,9 @@
                         <h3 class="projeler-card-title">Mobil Uygulama</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="projeler-card">
+                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/w4.webp" alt="Kurumsal Web Sitesi" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Kurumsal Web Sitesi" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
                         </div>
@@ -76,9 +76,9 @@
                         <h3 class="projeler-card-title">Kurumsal Web Sitesi</h3>
                     </div>
                 </a>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="projeler-card">
+                <a href="<?php echo esc_url( home_url( '/hizmetlerimiz/' ) ); ?>" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/w5.webp" alt="E-Ticaret Platformu" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-eticaret.jpg" alt="E-Ticaret Platformu" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-arrow-right"></i></div>
                         </div>
