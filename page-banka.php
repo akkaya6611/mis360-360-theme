@@ -26,112 +26,22 @@
             <div class="banka-main-grid">
                                 <div class="banka-accounts-column">
                     <div class="banka-accounts-list">
-                                                <div class="banka-account-card">
-                            <div class="banka-logo-wrapper">
-                                <div class="banka-logo-text">AKBANK</div>
-                            </div>
-                            <div class="banka-card-content">
-                                <div class="banka-company-name banka-copyable" data-copy="Dijital Çözümler Teknoloji A.Ş.">
-                                    <span>Dijital Çözümler Teknoloji A.Ş.</span>
-                                    <button class="banka-copy-btn" title="Kopyala">
-                                        <i class="fas fa-copy"></i>
-                                    </button>
-                                </div>
-                                <div class="banka-info-row">
-                                    <span class="banka-info-label">IBAN:</span>
-                                    <span class="banka-info-value banka-copyable" data-copy="TR47 0004 6001 2345 6789 0123 45">
-                                        <span>TR47 0004 6001 2345 6789 0123 45</span>
-                                        <button class="banka-copy-btn" title="Kopyala">
-                                            <i class="fas fa-copy"></i>
-                                        </button>
-                                    </span>
-                                </div>
-                                                                <div class="banka-info-row">
-                                    <span class="banka-info-label">HESAP NO:</span>
-                                    <span class="banka-info-value">
-                                        <span>567890123</span>
-                                    </span>
-                                </div>
-                                                                                                <div class="banka-info-row">
-                                    <span class="banka-info-label">ŞUBE:</span>
-                                    <span class="banka-info-value">
-                                        <span>1247</span>
-                                    </span>
-                                </div>
-                                                            </div>
-                        </div>
-                                                <div class="banka-account-card">
-                            <div class="banka-logo-wrapper">
-                                <div class="banka-logo-text">GARANTİ</div>
-                            </div>
-                            <div class="banka-card-content">
-                                <div class="banka-company-name banka-copyable" data-copy="Yazılım Geliştirme Hizmetleri Ltd.">
-                                    <span>Yazılım Geliştirme Hizmetleri Ltd.</span>
-                                    <button class="banka-copy-btn" title="Kopyala">
-                                        <i class="fas fa-copy"></i>
-                                    </button>
-                                </div>
-                                <div class="banka-info-row">
-                                    <span class="banka-info-label">IBAN:</span>
-                                    <span class="banka-info-value banka-copyable" data-copy="TR33 0006 2009 8765 4321 0987 65">
-                                        <span>TR33 0006 2009 8765 4321 0987 65</span>
-                                        <button class="banka-copy-btn" title="Kopyala">
-                                            <i class="fas fa-copy"></i>
-                                        </button>
-                                    </span>
-                                </div>
-                                                                <div class="banka-info-row">
-                                    <span class="banka-info-label">HESAP NO:</span>
-                                    <span class="banka-info-value">
-                                        <span>987654321</span>
-                                    </span>
-                                </div>
-                                                                                                <div class="banka-info-row">
-                                    <span class="banka-info-label">ŞUBE:</span>
-                                    <span class="banka-info-value">
-                                        <span>892</span>
-                                    </span>
-                                </div>
-                                                            </div>
-                        </div>
-                                                <div class="banka-account-card">
-                            <div class="banka-logo-wrapper">
-                                <div class="banka-logo-text">T. İŞ BANKASI</div>
-                            </div>
-                            <div class="banka-card-content">
-                                <div class="banka-company-name banka-copyable" data-copy="Web Tasarım ve Dijital Ajans A.Ş.">
-                                    <span>Web Tasarım ve Dijital Ajans A.Ş.</span>
-                                    <button class="banka-copy-btn" title="Kopyala">
-                                        <i class="fas fa-copy"></i>
-                                    </button>
-                                </div>
-                                <div class="banka-info-row">
-                                    <span class="banka-info-label">IBAN:</span>
-                                    <span class="banka-info-value banka-copyable" data-copy="TR12 0006 4000 1122 3344 5566 77">
-                                        <span>TR12 0006 4000 1122 3344 5566 77</span>
-                                        <button class="banka-copy-btn" title="Kopyala">
-                                            <i class="fas fa-copy"></i>
-                                        </button>
-                                    </span>
-                                </div>
-                                                                <div class="banka-info-row">
-                                    <span class="banka-info-label">HESAP NO:</span>
-                                    <span class="banka-info-value">
-                                        <span>112233445</span>
-                                    </span>
-                                </div>
-                                                                                                <div class="banka-info-row">
-                                    <span class="banka-info-label">ŞUBE:</span>
-                                    <span class="banka-info-value">
-                                        <span>2156</span>
-                                    </span>
-                                </div>
-                                                            </div>
-                        </div>
-                                            </div>
-                </div>
-                
-                                <div class="banka-payment-column">
+      <div class="banka-account-card">
+          <div class="banka-card-content" style="text-align: center; padding: 40px 20px;">
+              <i class="fas fa-lock" style="font-size: 40px; color: var(--mis360-360-primary); margin-bottom: 20px;"></i>
+              <h3 style="margin-bottom: 15px;">G�venlik Nedeniyle</h3>
+              <p style="color: var(--mis360-360-text-light); margin-bottom: 20px;">
+                  IBAN, Kart ve Hesap sahibi bilgilerimiz web sitemizde a��k�a payla��lmamaktad�r. �deme i�lemleri i�in l�tfen m��teri temsilcimizden g�ncel banka bilgilerimizi talep ediniz.
+              </p>
+              <a href="<?php echo esc_url( home_url( "/iletisim/" ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 24px; background: var(--mis360-360-primary); color: white; border-radius: 8px; text-decoration: none;">
+                  <span>�leti�ime Ge�in</span>
+                  <i class="fas fa-arrow-right"></i>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="banka-payment-column">
                     <div class="banka-payment-header">
                         <h2 class="banka-payment-title">Kabul Ettiğimiz Ödeme Yöntemleri</h2>
                     </div>
@@ -167,22 +77,7 @@
                                                                             </ul>
                                                                     </div>
                             </div>
-                                                        <div class="banka-payment-card">
-                                <div class="banka-payment-icon">
-                                    <i class="fas fa-credit-card"></i>
-                                </div>
-                                <div class="banka-payment-content-wrapper">
-                                    <h3 class="banka-payment-card-title">Kredi Kartı</h3>
-                                                                        <p class="banka-payment-card-description">
-                                        Online ödeme sistemimiz üzerinden kredi kartı ile güvenli ödeme yapabilirsiniz. Tüm kartlar kabul edilmektedir.                                    </p>
-                                                                                                            <ul class="banka-payment-features">
-                                                                                <li><i class="fas fa-check"></i> Taksit imkanı</li>
-                                                                                <li><i class="fas fa-check"></i> SSL güvenli</li>
-                                                                                <li><i class="fas fa-check"></i> Anında onay</li>
-                                                                            </ul>
-                                                                    </div>
-                            </div>
-                                                    </div>
+                                                        </div>
                     </div>
                 </div>
                             </div>
