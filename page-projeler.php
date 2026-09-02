@@ -69,7 +69,7 @@
                 
                 <a href="https://ratemomobilya.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-eticaret.jpg" alt="Ratemo Mobilya" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-ratemo.png" alt="Ratemo Mobilya" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
