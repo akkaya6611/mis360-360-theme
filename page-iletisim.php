@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['iletisim_action'])) {
     $mesaj = sanitize_textarea_field($_POST['mesaj'] ?? '');
 
     if (!empty($isim) && !empty($email) && is_email($email) && !empty($mesaj)) {
-        $to = 's.akkaya0166@gmail.com';
+        $to = 'info@misteknoloji360.com.tr';
         $subject = 'İletişim Formu Mesajı: ' . $konu;
         
         $body = "Web sitenizden yeni bir iletişim mesajı aldınız:\n\n";

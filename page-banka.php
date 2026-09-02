@@ -29,12 +29,12 @@
       <div class="banka-account-card">
           <div class="banka-card-content" style="text-align: center; padding: 40px 20px;">
               <i class="fas fa-lock" style="font-size: 40px; color: var(--mis360-360-primary); margin-bottom: 20px;"></i>
-              <h3 style="margin-bottom: 15px;">G�venlik Nedeniyle</h3>
+              <h3 style="margin-bottom: 15px;">Güvenlik Nedeniyle</h3>
               <p style="color: var(--mis360-360-text-light); margin-bottom: 20px;">
-                  IBAN, Kart ve Hesap sahibi bilgilerimiz web sitemizde a��k�a payla��lmamaktad�r. �deme i�lemleri i�in l�tfen m��teri temsilcimizden g�ncel banka bilgilerimizi talep ediniz.
+                  IBAN, Kart ve Hesap sahibi bilgilerimiz web sitemizde açıkça paylaşılmamaktadır. Ödeme işlemleri için lütfen müşteri temsilcimizden güncel banka bilgilerimizi talep ediniz.
               </p>
               <a href="<?php echo esc_url( home_url( "/iletisim/" ) ); ?>" class="hizmetler-card-btn hizmetler-card-btn-primary" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 24px; background: var(--mis360-360-primary); color: white; border-radius: 8px; text-decoration: none;">
-                  <span>�leti�ime Ge�in</span>
+                  <span>İletişime Geçin</span>
                   <i class="fas fa-arrow-right"></i>
               </a>
           </div>
@@ -106,7 +106,7 @@
                     </div>
                     <h3 class="banka-note-title">Ödeme Sonrası</h3>
                     <ul class="banka-note-list">
-                                                <li>Ödeme dekontunuzu <strong>info@Mis Teknoloji 360.com</strong> adresine gönderin.</li>
+                                                <li>Ödeme dekontunuzu <strong>info@misteknoloji360.com.tr</strong> adresine gönderin.</li>
                                                 <li>Dekontu gönderdikten sonra 24 saat içinde onay alırsınız.</li>
                                                 <li>Ödeme onayı sonrası proje süreci başlar.</li>
                                                 <li>Herhangi bir sorunuz için bizimle iletişime geçebilirsiniz.</li>
