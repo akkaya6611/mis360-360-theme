@@ -30,7 +30,7 @@
             <div class="projeler-grid">
                 <a href="https://beyzadeetbalikrestaurant.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Beyzade Et Balık Restaurant" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-beyzade.png" alt="Beyzade Et Balık Restaurant" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
@@ -56,7 +56,7 @@
                 
                 <a href="https://yolyardimmerkezi.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-mobil.jpg" alt="Yol Yardım Merkezi" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-yolyardim.png" alt="Yol Yardım Merkezi" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
@@ -82,7 +82,7 @@
                 
                 <a href="http://emdiefhome.com.tr/" target="_blank" rel="noopener noreferrer" class="projeler-card">
                     <div class="projeler-card-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/proje-kurumsal.jpg" alt="Emdief Home" loading="lazy">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ref-emdief.png" alt="Emdief Home" loading="lazy">
                         <div class="projeler-card-overlay">
                             <div class="projeler-card-icon"><i class="fas fa-external-link-alt"></i></div>
                         </div>
